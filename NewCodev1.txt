@@ -1,0 +1,2 @@
+Rebase Demo 1
+Before commit
