@@ -1,0 +1,18 @@
+This are the 2 commands
+
+git pull
+git fetch
+
+git fetch is a safe, non-destructive command that downloads new commits, branches, tags, and metadata
+from a remote repository to your local machine without merging them into your current working branch or altering your local files.  
+This allows developers to review changes and inspect the remote state before deciding to integrate them,
+effectively keeping the local copy of the remote repository up-to-date while isolating fetched content from active development work.
+
+
+git pull is a command that fetches changes from a remote repository and immediately merges them into your current local branch, 
+effectively acting as a shortcut for running git fetch followed by git merge. 
+It keeps your local code synchronized with the remote version by downloading new commits and integrating them into your working directory. 
+
+The command is primarily used for updating local repositories to reflect the latest changes made by teammates or other remote sources. 
+By default, it performs a merge operation, but it can also be configured or explicitly instructed to use --rebase to maintain a linear 
+commit history without creating merge commits
